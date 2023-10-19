@@ -2,7 +2,9 @@ package avinya.tech.buildvariants.buildutils;
 
 public enum BuildType {
 
-    DEVELOPMENT("developmentBuild"), STAGING("stagingBuild"), PRODUCTION("productionBuild");
+    DEVELOPMENT("developmentBuild"),
+    STAGING("stagingBuild"),
+    PRODUCTION("productionBuild");
 
     public String getType() {
         return type;
